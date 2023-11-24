@@ -1,0 +1,224 @@
+body{
+  background: rgb(241, 237, 233);
+}
+
+header{
+  width: 1050px;
+  margin: 30px auto;
+  border-top: 2px solid tomato;
+  border-bottom: 2px solid tomato;
+}
+
+header h1{
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  font-size: 2em;
+  font-style: italic;
+}
+
+header h1 a{
+  text-decoration: none;
+  color: tomato;
+}
+
+.navMenu{
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.navMenu *:not(svg){
+  color: tomato;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  margin-right: 15px;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.navMenu *:hover{
+  color: orange;
+}
+
+.center{
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.productList{
+  margin: 0 auto;
+}
+
+.productList figure{
+  float: left;
+  width: 32%;
+  margin: 0 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.productList figure a{
+  text-decoration: none;
+}
+
+.productList figure:hover img{
+  transform: scale(1.1);
+}
+
+.productList figure:hover figcaption {
+  color: orange;
+}
+
+.product{
+  overflow: hidden;
+}
+
+
+.product img{
+  display: block;
+  width: 100%;
+  transition: all .3s;
+}
+
+.productList figcaption{
+  padding: 0 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: tomato;
+  background: rgb(241,237,233);
+  transition: all .3s;
+}
+
+.banner{
+  width: 100%;
+  height: 250px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 3em;
+  color: tomato;
+  font-weight: bold;
+  line-height: 250px;
+  background-color: rgb(241,237,233);
+}
+
+.productDetail{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.productDetailImg{
+  width: 40%;
+}
+
+.prodInfo{
+  width: 50%;
+  padding: 20px;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: tomato;
+  border: 3px solid tomato;
+}
+
+.buyBtn{
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 0;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  border: none;
+  background: tomato;
+}
+
+.prodRegContainer {
+  padding: 20px 0;
+  text-align: center;
+  border: 2px solid tomato;
+}
+
+.prodRegForm ul{
+  list-style: none;
+  padding: 0;
+}
+
+.prodRegForm input{
+  width: 500px;
+  height: 30px;
+  margin: 5px 0;
+}
+
+.prodRegForm button{
+  width: 400px;
+  height: 35px;
+  color: #FFF;
+  border: none;
+  background: tomato;
+  cursor: pointer;
+}
+
+.loginCenter,
+.signupCenter{
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border: 2px solid tomato;
+}
+
+#loginForm,
+#signupForm{
+  text-align: center;
+}
+
+#loginForm > *,
+#signupForm > *{
+  display: block;
+  margin: 0 auto;
+}
+
+#loginForm > input,
+#loginForm > button,
+#signupForm > input,
+#signupForm > button{
+  width: 300px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+#loginForm > button,
+#signupForm > button{
+  font-size: 15px;
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  background: tomato;
+}
+
+#loginSubMenu{
+  width: 300px;
+  text-align: right;
+}
+
+#loginSubMenu button{
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+  margin-right: 10px;
+  border: none;
+  background: none;
+}
+
+#loginSubMenu button:hover{
+  font-weight: bold;
+}
